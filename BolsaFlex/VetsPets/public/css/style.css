@@ -1,0 +1,198 @@
+body{
+  font-family: 'Poppins' !important;
+}
+
+#cabecalho{
+  background-color: #daac00;
+}
+
+.nav-link{
+  color: #ffffff!important;
+  font-size: 20px;
+  font-weight: bold !important;
+}
+
+#campoPesq{
+  border: none !important;
+  border-radius: 0% !important;
+  font-size: 16px;
+}
+
+.btnPesqBlue:hover{
+  border: solid 3px white !important; 
+}
+
+.btnPesqYellow:hover{
+  border: solid 3px #00bec9 !important;
+  background-color: white !important;
+  color:  rgb(49, 50, 67) !important;
+}
+
+.menu:hover{
+  border: white solid 3px !important;
+  background-color: #00bec9 !important;
+}
+
+input::placeholder {
+  color:white !important;
+  font-size: 12px !important;
+  }
+
+  .bgYellow{
+  color: white !important;
+  background-color: #fcc302 !important;
+  }
+
+.bgBlue{
+  color: white !important;
+  background-color: #00bec9 !important;
+  border-radius: 0%!important;
+  border:none !important;
+  }
+
+.padTop{
+  padding-top: 100px;
+  padding-bottom: 130px;
+  }
+
+.blueFont{
+  color: rgb(49, 50, 67) !important;
+}   
+
+.videoDog{
+    position: absolute;
+}
+
+#bgQuadrado{
+  margin-top: 220px;
+  margin-left: 15px ;
+}
+
+#bgQuadrado2{
+  margin-top: 220px;
+  margin-left: 260px ;
+}
+
+.btnVideoDog{
+  position: absolute;
+  margin-left: 210px;
+  margin-top: 150px;
+}
+
+.terceiraSection{
+  margin-bottom: 100px;
+}
+
+.marginLeftImg{
+  margin-left: 70px !important;
+}
+
+.marginRightImg{
+  margin-right: 70px !important;
+}
+
+#estatisticas{
+background-image: url("/css/img/Image.png");
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+width: 100vw;
+color: white;
+padding-top: 12%;
+}
+
+.colorLastSectionClaro{
+  color: #aae9ed;
+}
+
+.colorLastSectionEscuro{
+  color: #77dce2;
+}
+
+.borderLastSection{
+  border-left: solid 3px #d6d6d6;
+  border-right: solid 3px #d6d6d6;
+  border-bottom: solid 3px #d6d6d6;
+}
+
+.fixSize{
+  width: 100%;
+}
+
+.readEffects:hover{
+  font-size: 30px;
+  border-radius: 55%;
+  text-shadow:#77dce2 !important;
+  width: 250px;
+  background-color:#aae9ed ;
+  color: #fcc302;
+}
+
+#rodaPe{
+  height: 500px;
+  background-color: #343434;
+  color: #ffffff;
+}
+
+.footerPadding{
+  padding-top: 150px;
+}
+
+#campoPesqEnd{
+  border: none !important;
+  border-radius: 0% !important;
+  font-size: 16px;
+  width: 300px;
+  height: 80px;
+  background-color: #daac00;
+}
+
+#btnPesqEnd{
+  width: 120px;
+}
+
+.btn:hover{
+  background-color: #ffffff;
+}
+
+.centralizarCadastro{
+  background-color: #fcc302;
+  padding: 15px;
+  border-radius: 15px;
+  width: 25%;
+  border: solid 3px #daac00;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+.pesqCad{
+  background-color: #fcc302;
+  padding: 15px;
+  border-radius: 15px;
+  width: 25%;
+  border: solid 3px #daac00;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+[data-anime] {
+  opacity: 0;
+  transition: .5s;
+}
+
+[data-anime="left"]{
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="right"]{
+  transform: translate3d(50px, 0, 0);
+}
+
+[data-anime].animate{
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
